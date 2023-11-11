@@ -1,0 +1,23 @@
+/*=============================================
+
+=                      Texts                  =
+
+=============================================*/
+
+.text-stroke {
+	-webkit-text-stroke-width: 0.35px;
+}
+
+@media (min-width: 640px) {
+	.sm\:text-stroke-2 {
+		-webkit-text-stroke-width: 1.3px;
+	}
+}
+
+.text-stroke-brandPrimaryWhite {
+	-webkit-text-stroke-color: #ffffff;
+}
+
+.text-stroke-brandNeutral-800 {
+	-webkit-text-stroke-color: #0e0e0e;
+}
