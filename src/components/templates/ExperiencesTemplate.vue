@@ -1,5 +1,5 @@
 <template>
-	<section id="three" class="experiences m-4 xl:m-8">
+	<section id="experiences" class="m-4 xl:m-8">
 		<div :class="purpleBackgroundClasses">
 			<p class="font-satoshi text-xl md:text-2xl xl:text-4xl text-brandPrimaryWhite -ml-1.5 xl:ml-0 -mt-3">02</p>
 			<div class="relative h-full w-full">

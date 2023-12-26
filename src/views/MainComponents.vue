@@ -6,17 +6,20 @@
 	<Projects />
 	<Contact />
 
-	<nav>
-		<div><a href="#one">Yang Edruce</a></div>
-		<div><a href="#two">Hello</a></div>
-		<div><a href="#three">Experiencess</a></div>
-		<div><a href="#four">Skills & Uses</a></div>
-		<div><a href="#five">Projects</a></div>
-		<div><a href="#six">Contact</a></div>
+	<nav class="block xl:hidden">
+		<div><a href="#yangEdruce">Yang Edruce</a></div>
+		<div><a href="#hello">Hello</a></div>
+		<div><a href="#xperiences">Experiences</a></div>
+		<div><a href="#skillsUses">Skills & Uses</a></div>
+		<div><a href="#projects">Projects</a></div>
+		<div><a href="#contact">Contact</a></div>
 	</nav>
+
+	<Navigation />
 </template>
 
 <script setup>
+	import Navigation from "@/components/Navigation.vue";
 	import Hero from "@/components/Hero.vue";
 	import Hello from "@/components/sections/Hello.vue";
 	import Experiences from "@/components/sections/Experiences.vue";
