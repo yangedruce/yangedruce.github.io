@@ -1,12 +1,19 @@
 <template>
-	<div>
-		<Hero />
-		<Hello />
-		<Experiences />
-		<SkillsUses />
-		<Projects />
-		<Contact />
-	</div>
+	<Hero />
+	<Hello />
+	<Experiences />
+	<SkillsUses />
+	<Projects />
+	<Contact />
+
+	<nav>
+		<div><a href="#one">Yang Edruce</a></div>
+		<div><a href="#two">Hello</a></div>
+		<div><a href="#three">Experiencess</a></div>
+		<div><a href="#four">Skills & Uses</a></div>
+		<div><a href="#five">Projects</a></div>
+		<div><a href="#six">Contact</a></div>
+	</nav>
 </template>
 
 <script setup>

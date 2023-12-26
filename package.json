@@ -9,6 +9,7 @@
 		"preview": "vite preview --port 8080"
 	},
 	"dependencies": {
+		"gsap": "^3.12.4",
 		"vue": "^3.3.4"
 	},
 	"devDependencies": {
@@ -18,7 +19,9 @@
 		"tailwindcss": "^3.3.5",
 		"vite": "^4.4.5"
 	},
-	"tags": [
-		"swiper"
+	"keywords": [
+		"gsap",
+		"vue",
+		"scrollsmoother"
 	]
 }
