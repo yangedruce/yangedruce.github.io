@@ -1,5 +1,5 @@
 <template>
-	<section id="hello" class="m-4 xl:m-8">
+	<section id="two" class="hello m-4 xl:m-8">
 		<div class="bg-brandSecondaryOrange p-4 xl:p-8 rounded-2xl h-[70vh] md:h-[45vh] xl:h-screen">
 			<p class="font-satoshi text-xl md:text-2xl xl:text-4xl text-brandPrimaryWhite -ml-1.5 xl:ml-0 -mt-2 xl:-mt-3">
 				01
