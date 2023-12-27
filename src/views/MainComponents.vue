@@ -6,14 +6,15 @@
 	<Projects />
 	<Contact />
 
-	<nav class="block xl:hidden">
+	<!-- <nav class="block xl:hidden"> -->
+	<!-- <nav>
 		<div><a href="#yangEdruce">Yang Edruce</a></div>
 		<div><a href="#hello">Hello</a></div>
-		<div><a href="#xperiences">Experiences</a></div>
+		<div><a href="#experiences">Experiences</a></div>
 		<div><a href="#skillsUses">Skills & Uses</a></div>
 		<div><a href="#projects">Projects</a></div>
 		<div><a href="#contact">Contact</a></div>
-	</nav>
+	</nav> -->
 
 	<Navigation />
 </template>
