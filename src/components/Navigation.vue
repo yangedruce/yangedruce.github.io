@@ -11,8 +11,7 @@
 					:text-color="item.textColor"
 					:label="item.label"
 					:show-logo="item.link === '#yangEdruce'"
-					:active-emoji-image="item.activeEmojiImage"
-					:isActive="item.link === activeLink" />
+					:active-emoji-image="item.activeEmojiImage"/>
 				<Cta />
 			</div>
 		</div>
@@ -84,8 +83,6 @@
 	import gsap from "gsap";
 	import { ScrollTrigger } from "gsap/ScrollTrigger";
 	import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-
-	//
 	import NavigationLink from "@/components/NavigationLink.vue";
 
 	document.addEventListener("DOMContentLoaded", function () {
@@ -115,17 +112,6 @@
 						gsap.to(window, { duration: 1, scrollTo: targetOffset, overwrite: "auto" });
 					}
 				},
-			});
-
-			a.addEventListener("click", (e) => {
-				e.preventDefault();
-				setActive(a);
-				const targetElement = document.querySelector(a.getAttribute("href"));
-				const targetOffset = targetElement.getBoundingClientRect().top + window.scrollY;
-
-				history.pushState({ path: a.getAttribute("href") }, "", a.getAttribute("href"));
-
-				gsap.to(window, { duration: 1, scrollTo: targetOffset, overwrite: "auto" });
 			});
 		});
 
