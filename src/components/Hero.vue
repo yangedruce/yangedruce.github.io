@@ -1,7 +1,7 @@
 <template>
 	<section
 		id="yangEdruce"
-		class="relative border border-brandNeutral-800 dark:border-brandPrimaryWhite bg-brandNeutral-50 dark:bg-brandPrimaryBlack m-4 xl:m-8 rounded-2xl h-[70vh] md:h-[45vh] xl:h-[93.4vh]">
+		class="relative border border-brandNeutral-800 dark:border-brandPrimaryWhite bg-brandNeutral-50 dark:bg-brandPrimaryBlack m-4 xl:m-8 rounded-2xl h-screen xl:h-[93.4vh]">
 		<div class="relative w-full h-full py-5 xl:py-10">
 			<h1 class="relative w-full h-full overflow-hidden whitespace-nowrap">
 				<div

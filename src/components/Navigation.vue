@@ -1,7 +1,7 @@
 <template>
 	<nav>
 		<div class="fixed z-50 top-0 left-0 p-11 w-full">
-			<div class="flex items-center justify-center gap-2.5">
+			<div class="hidden xl:flex items-center justify-center gap-2.5">
 				<NavigationLink
 					v-for="(item, index) in navigationItems"
 					:key="index"
@@ -11,7 +11,7 @@
 					:text-color="item.textColor"
 					:label="item.label"
 					:show-logo="item.link === '#yangEdruce'"
-					:active-emoji-image="item.activeEmojiImage"/>
+					:active-emoji-image="item.activeEmojiImage" />
 				<Cta />
 			</div>
 		</div>
