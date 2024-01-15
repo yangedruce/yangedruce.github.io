@@ -1,10 +1,8 @@
 <template>
-	<!-- <Navigation /> -->
 	<MainComponents />
 </template>
 
 <script setup>
-	// import Navigation from "@/components/Navigation.vue";
 	import MainComponents from "@/views/MainComponents.vue";
 </script>
 

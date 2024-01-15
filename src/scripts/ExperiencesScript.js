@@ -1,6 +1,6 @@
 import Divider from "@/components/Divider.vue";
 
-const purpleBackgroundClasses = "bg-brandSecondaryPurple p-4 xl:p-8 rounded-2xl h-screen xl:h-screen";
+const purpleBackgroundClasses = "bg-brandSecondaryPurple p-4 xl:p-8 rounded-2xl h-screen";
 const gridBoxClasses = "grid grid-cols-1 xl:grid-cols-5 items-center gap-4 xl:gap-7 h-full w-full mt-4 xl:mt-8";
 const leftExperienceClasses =
 	"h-full bg-brandNeutral-700 w-full xl:col-span-2 border border-brandNeutral-700 py-4 xl:p-10 rounded-2xl";

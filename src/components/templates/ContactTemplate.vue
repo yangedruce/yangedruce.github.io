@@ -1,6 +1,6 @@
 <template>
 	<section id="contact" class="m-4 xl:m-8">
-		<div class="bg-brandSecondaryGreen p-4 xl:p-8 rounded-2xl h-screen xl:h-screen">
+		<div class="bg-brandSecondaryGreen p-4 xl:p-8 rounded-2xl h-screen">
 			<p class="font-satoshi text-xl md:text-2xl xl:text-4xl text-brandNeutral-800 -ml-1.5 xl:-ml-1 -mt-3 xl:-mt-4">
 				05
 			</p>

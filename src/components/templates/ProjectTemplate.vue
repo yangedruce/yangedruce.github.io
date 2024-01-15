@@ -1,6 +1,6 @@
 <template>
 	<section id="projects" class="m-4 xl:m-8">
-		<div class="bg-brandSecondaryRed p-4 xl:p-8 rounded-2xl h-screen xl:h-screen">
+		<div class="bg-brandSecondaryRed p-4 xl:p-8 rounded-2xl h-screen">
 			<p class="font-satoshi text-xl md:text-2xl xl:text-4xl text-brandPrimaryWhite -ml-1.5 xl:ml-0 -mt-3">04</p>
 			<div class="relative h-full w-full">
 				<h2
