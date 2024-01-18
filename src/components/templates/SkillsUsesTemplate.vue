@@ -1,10 +1,10 @@
 <template>
 	<section id="skillsUses" class="m-4 xl:m-8">
-		<div class="bg-brandSecondaryBlue p-4 xl:p-8 rounded-2xl h-screen">
-			<p class="font-satoshi text-xl md:text-2xl xl:text-4xl text-brandPrimaryWhite -ml-1.5 xl:ml-0 -mt-3">03</p>
+		<div class="bg-brandNeutral-200 p-4 xl:p-8 rounded-2xl h-screen">
+			<p class="font-satoshi text-xl md:text-2xl xl:text-4xl text-brandNeutral-800 -ml-1.5 xl:ml-0 -mt-3">03</p>
 			<div class="relative h-full w-full">
 				<h2
-					class="absolute bottom-2.5 md:bottom-5 xl:bottom-10 2xl:bottom-6 3xl:-bottom-8 -ml-1.5 xl:ml-0 3xl:-ml-2 font-satoshi font-bold text-brandPrimaryWhite text-3xl md:text-5xl xl:text-7xl 2xl:text-8xl 3xl:text-10xl leading-tight">
+					class="absolute bottom-2.5 md:bottom-5 xl:bottom-10 2xl:bottom-6 3xl:-bottom-8 -ml-1.5 xl:ml-0 3xl:-ml-2 font-satoshi font-bold text-brandNeutral-800 text-3xl md:text-5xl xl:text-7xl 2xl:text-8xl 3xl:text-10xl leading-tight">
 					Skills & Uses
 				</h2>
 			</div>
@@ -14,8 +14,8 @@
 				<span class="font-bold">03</span>/05
 			</p>
 			<div
-				class="relative w-full md:w-[79.1%] lg:w-[85%] xl:w-[89%] 2xl:w-[92.4%] 3xl:w-[95.95%] h-full overflow-hidden whitespace-nowrap flex items-center px-4 rounded-full bg-brandSecondaryBlue">
-				<div class="absolute flex items-center animate-marquee3 text-brandPrimaryWhite leading-none">
+				class="relative w-full md:w-[79.1%] lg:w-[85%] xl:w-[89%] 2xl:w-[92.4%] 3xl:w-[95.95%] h-full overflow-hidden whitespace-nowrap flex items-center px-4 rounded-full bg-brandNeutral-200">
+				<div class="absolute flex items-center animate-marquee3 text-brandNeutral-800 leading-none">
 					<span>&nbsp;</span>
 					<span class="uppercase font-satoshi text-xs">
 						You are now entering SKILLS & USES section. You are now entering SKILLS & USES section. You are now entering
@@ -27,7 +27,7 @@
 						SKILLS & USES section. You are now entering SKILLS & USES section.
 					</span>
 				</div>
-				<div class="absolute flex items-center animate-marquee4 text-brandPrimaryWhite leading-none">
+				<div class="absolute flex items-center animate-marquee4 text-brandNeutral-800 leading-none">
 					<span>&nbsp;</span>
 					<span class="uppercase font-satoshi text-xs">
 						You are now entering SKILLS & USES section. You are now entering SKILLS & USES section. You are now entering

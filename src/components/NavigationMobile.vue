@@ -1,8 +1,8 @@
 <template>
 	<div
-		class="xl:hidden fixed z-[60] w-screen text-brandNeutral-800 dark:text-brandPrimaryWhite bg-brandNeutral-50 dark:bg-brandPrimaryBlack">
+		class="xl:hidden fixed z-[60] w-screen text-brandNeutral-800 dark:text-brandPrimaryWhite bg-brandPrimaryWhite dark:bg-brandPrimaryBlack">
 		<button class="absolute right-7 top-2 text-xs md:text-base font-satoshi" @click="open">Menu</button>
-		<div id="menu" class="hidden fixed top-0 left-0 h-screen w-screen bg-brandNeutral-50 dark:bg-brandPrimaryBlack">
+		<div id="menu" class="hidden fixed top-0 left-0 h-screen w-screen bg-brandPrimaryWhite dark:bg-brandPrimaryBlack">
 			<button class="text-xs md:text-base font-satoshi absolute right-7 top-6" @click="close">Close</button>
 			<ul class="space-y-4 md:space-y-8 p-6">
 				<template v-for="(item, index) in navigationItems">
@@ -25,8 +25,8 @@
 					class="flex items-center justify-center text-center mt-2 md:mt-0 py-3 w-full md:ml-2 font-satoshi font-bold text-sm md:text-base text-brandPrimaryWhite border border-brandNeutral-800 dark:border-brandPrimaryWhite bg-brandNeutral-800 rounded-2xl drop-shadow-xl shadow-brandPrimaryBlack">
 					<span class="relative flex h-3 w-3 mr-4">
 						<span
-							class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brandSecondaryGreen opacity-75"></span>
-						<span class="relative inline-flex rounded-full h-3 w-3 bg-brandSecondaryGreen"></span>
+							class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brandNeutral-400 opacity-75"></span>
+						<span class="relative inline-flex rounded-full h-3 w-3 bg-brandNeutral-400"></span>
 					</span>
 					<span>Available to work</span>
 				</div>

@@ -1,10 +1,10 @@
 <template>
 	<section id="experiences" class="m-4 xl:m-8">
 		<div :class="purpleBackgroundClasses">
-			<p class="font-satoshi text-xl md:text-2xl xl:text-4xl text-brandPrimaryWhite -ml-1.5 xl:ml-0 -mt-3">02</p>
+			<p class="font-satoshi text-xl md:text-2xl xl:text-4xl text-brandNeutral-800 -ml-1.5 xl:ml-0 -mt-3">02</p>
 			<div class="relative h-full w-full">
 				<h2
-					class="absolute bottom-3.5 md:bottom-8 xl:bottom-14 3xl:bottom-4 -ml-2 3xl:-ml-8 font-satoshi font-bold text-brandPrimaryWhite text-3xl md:text-5xl xl:text-7xl 2xl:text-8xl 3xl:text-10xl">
+					class="absolute bottom-3.5 md:bottom-8 xl:bottom-14 3xl:bottom-4 -ml-2 3xl:-ml-8 font-satoshi font-bold text-brandNeutral-800 text-3xl md:text-5xl xl:text-7xl 2xl:text-8xl 3xl:text-10xl">
 					Experiences
 				</h2>
 			</div>
@@ -14,8 +14,8 @@
 				<span class="font-bold">02</span>/05
 			</p>
 			<div
-				class="relative w-full h-full overflow-hidden whitespace-nowrap flex items-center px-4 rounded-full bg-brandSecondaryPurple">
-				<div class="absolute flex items-center animate-marquee3 text-brandPrimaryWhite leading-none">
+				class="relative w-full h-full overflow-hidden whitespace-nowrap flex items-center px-4 rounded-full bg-brandNeutral-150">
+				<div class="absolute flex items-center animate-marquee3 text-brandNeutral-800 leading-none">
 					<span>&nbsp;</span>
 					<span class="uppercase font-satoshi text-xs">
 						You are now entering EXPERIENCES section. You are now entering EXPERIENCES section. You are now entering
@@ -27,7 +27,7 @@
 						are now entering EXPERIENCES section.
 					</span>
 				</div>
-				<div class="absolute flex items-center animate-marquee4 text-brandPrimaryWhite leading-none">
+				<div class="absolute flex items-center animate-marquee4 text-brandNeutral-800 leading-none">
 					<span>&nbsp;</span>
 					<span class="uppercase font-satoshi text-xs">
 						You are now entering EXPERIENCES section. You are now entering EXPERIENCES section. You are now entering
@@ -46,7 +46,7 @@
 			<div :class="leftExperienceClasses">
 				<div class="px-4 xl:px-0">
 					<span
-						class="bg-brandSecondaryGreen text-brandNeutral-800 text-sm text-center font-satoshi font-bold uppercase rounded-full py-1 w-24 px-4">
+						class="bg-brandNeutral-400 text-brandNeutral-800 text-sm text-center font-satoshi font-bold uppercase rounded-full py-1 w-24 px-4">
 						CURRENT
 					</span>
 				</div>

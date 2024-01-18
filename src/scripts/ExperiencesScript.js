@@ -1,12 +1,12 @@
 import Divider from "@/components/Divider.vue";
 
-const purpleBackgroundClasses = "bg-brandSecondaryPurple p-4 xl:p-8 rounded-2xl h-screen";
+const purpleBackgroundClasses = "bg-brandNeutral-150 p-4 xl:p-8 rounded-2xl h-screen";
 const gridBoxClasses = "grid grid-cols-1 xl:grid-cols-5 items-center gap-4 xl:gap-7 h-full w-full mt-4 xl:mt-8";
 const leftExperienceClasses =
 	"h-full bg-brandNeutral-700 w-full xl:col-span-2 border border-brandNeutral-700 py-4 xl:p-10 rounded-2xl";
 const rightExperienceClasses =
 	"hidden xl:block h-full w-full xl:col-span-3 bg-brandNeutral-700 border border-brandNeutral-700 p-4 xl:p-10 rounded-2xl";
-const bulletItemClasses = "text-brandSecondaryGreen mt-2";
+const bulletItemClasses = "text-brandNeutral-400 mt-2";
 const bulletItemTextClasses = "text-brandPrimaryWhite";
 
 const bulletPointsWebDeveloper = [

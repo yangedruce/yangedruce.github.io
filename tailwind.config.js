@@ -62,26 +62,16 @@ module.exports = {
 			brandPrimaryWhite: {
 				DEFAULT: "#FFFFFF",
 			},
-			brandSecondaryBlue: {
-				DEFAULT: "#2B35EE",
-			},
-			brandSecondaryOrange: {
-				DEFAULT: "#EB4F27",
-			},
-			brandSecondaryRed: {
-				DEFAULT: "#EA3345",
-			},
-			brandSecondaryPurple: {
-				DEFAULT: "#510BC4",
-			},
-			brandSecondaryYellow: {
-				DEFAULT: "#FFFF54",
-			},
 			brandSecondaryGreen: {
 				DEFAULT: "#75FB4C",
 			},
 			brandNeutral: {
 				50: "#F2E9E2",
+				100: "#F5F5F5",
+				150: "#EFEFEF",
+				200: "#DFDDDD",
+				300: "#DAD5D5",
+				400: "#C5BFBE",
 				500: "#4E4C4C",
 				600: "#222121",
 				700: "#1E1E1E",

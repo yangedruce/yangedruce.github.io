@@ -9,7 +9,7 @@
 			</p>
 		</div>
 		<div
-			class="flex justify-center items-center gap-8 md:gap-12 text-xs md:text-base text-brandSecondaryGreen font-satoshi font-bold mt-8 xl:mt-16">
+			class="flex justify-center items-center gap-8 md:gap-12 text-xs md:text-base text-brandNeutral-400 font-satoshi font-bold mt-8 xl:mt-16">
 			<a href="https://www.github.com/yangedruce" target="_blank">Github</a>
 			<a href="https://www.behance.net/yangedruce" target="_blank">Behance</a>
 			<a href="https://www.linkedin.com/in/yangedruce/" target="_blank">LinkedIn</a>

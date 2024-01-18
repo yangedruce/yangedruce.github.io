@@ -1,7 +1,7 @@
 import Divider from "@/components/Divider.vue";
 
 const gridBoxClasses = "xl:container mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-4 xl:gap-7 mt-4 xl:mt-8";
-const bulletItemClasses = "text-brandSecondaryGreen mt-2";
+const bulletItemClasses = "text-brandNeutral-400 mt-2";
 const bulletItemTextClasses = "text-brandPrimaryWhite";
 
 const bulletPointsDevelopmentSkills = [
