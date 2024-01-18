@@ -1,4 +1,5 @@
 <template>
+	<NavigationMobile />
 	<Hero />
 	<Hello />
 	<Experiences />
@@ -10,6 +11,7 @@
 
 <script setup>
 	import Navigation from "@/components/Navigation.vue";
+	import NavigationMobile from "@/components/NavigationMobile.vue";
 	import Hero from "@/components/Hero.vue";
 	import Hello from "@/components/sections/Hello.vue";
 	import Experiences from "@/components/sections/Experiences.vue";

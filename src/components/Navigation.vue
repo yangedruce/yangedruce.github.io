@@ -89,6 +89,7 @@
 		gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 		let links = gsap.utils.toArray("nav a");
+		let breakpointSize = 1280;
 
 		links.forEach((a) => {
 			let element = document.querySelector(a.getAttribute("href")),
@@ -109,7 +110,9 @@
 
 						history.pushState({ path: a.getAttribute("href") }, "", a.getAttribute("href"));
 
-						gsap.to(window, { duration: 1, scrollTo: targetOffset, overwrite: "auto" });
+						if (window.innerWidth > breakpointSize) {
+							gsap.to(window, { duration: 1, scrollTo: targetOffset, overwrite: "auto" });
+						}
 					}
 				},
 			});
