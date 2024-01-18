@@ -14,7 +14,7 @@
 		</p>
 		<div
 			class="absolute top-3 left-[3.2rem] md:left-[4.5rem] xl:left-[2.8rem] responsiveScreen1495:left-[3.3rem] responsiveScreen1550:left-[3.8rem] responsiveScreen1610:left-[4rem] responsiveScreen1680:left-[4.3rem] 2xl:left-[4.5rem]">
-			<img v-if="isActive" :src="activeEmojiImage" alt="logo_nav_item_emoji" class="h-14 md:h-20 w-auto" />
+			<img :src="activeEmojiImage" alt="logo_nav_item_emoji" class="h-14 md:h-20 w-auto hidden" />
 		</div>
 	</a>
 </template>

@@ -1,22 +1,17 @@
 <template>
+	<NavigationMobile />
 	<Hero />
 	<Hello />
 	<Experiences />
 	<SkillsUses />
 	<Projects />
 	<Contact />
-
-	<nav>
-		<div><a href="#one">Yang Edruce</a></div>
-		<div><a href="#two">Hello</a></div>
-		<div><a href="#three">Experiencess</a></div>
-		<div><a href="#four">Skills & Uses</a></div>
-		<div><a href="#five">Projects</a></div>
-		<div><a href="#six">Contact</a></div>
-	</nav>
+	<Navigation />
 </template>
 
 <script setup>
+	import Navigation from "@/components/Navigation.vue";
+	import NavigationMobile from "@/components/NavigationMobile.vue";
 	import Hero from "@/components/Hero.vue";
 	import Hello from "@/components/sections/Hello.vue";
 	import Experiences from "@/components/sections/Experiences.vue";
