@@ -1,6 +1,6 @@
 <template>
 	<section id="contact" class="m-4 xl:m-8">
-		<div class="bg-brandSecondaryGreen p-4 xl:p-8 rounded-2xl h-screen">
+		<div class="bg-brandNeutral-400 p-4 xl:p-8 rounded-2xl h-screen">
 			<p class="font-satoshi text-xl md:text-2xl xl:text-4xl text-brandNeutral-800 -ml-1.5 xl:-ml-1 -mt-3 xl:-mt-4">
 				05
 			</p>
@@ -16,7 +16,7 @@
 				<span class="font-bold">05</span>/05
 			</p>
 			<div
-				class="relative w-full h-full overflow-hidden whitespace-nowrap flex items-center px-4 rounded-full bg-brandSecondaryGreen">
+				class="relative w-full h-full overflow-hidden whitespace-nowrap flex items-center px-4 rounded-full bg-brandNeutral-400">
 				<div class="absolute flex items-center animate-marquee3 text-brandNeutral-800 leading-none">
 					<span>&nbsp;</span>
 					<span class="uppercase font-satoshi text-xs">

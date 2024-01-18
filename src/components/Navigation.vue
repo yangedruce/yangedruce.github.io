@@ -26,52 +26,47 @@
 		{
 			link: "#yangEdruce",
 			linkClass:
-				"bg-brandNeutral-600 dark:bg-brandPrimaryWhite border border-brandNeutral-600 dark:border-brandPrimaryWhite text-brandPrimaryWhite dark:text-brandNeutral-800 py-4 px-4 md:px-8 h-28 w-56",
+				"bg-brandPrimaryWhite border border-brandPrimaryWhite text-brandNeutral-800 py-4 px-4 md:px-8 h-28 w-56",
 			number: "",
-			textColor: "text-brandPrimaryWhite dark:text-brandNeutral-800",
+			textColor: "text-brandNeutral-800",
 			label: "Yang Edruce",
 			activeEmojiImage: "/emoji/yangedruce-emoji.png",
 		},
 		{
 			link: "#hello",
-			linkClass:
-				"bg-brandSecondaryOrange border border-brandSecondaryOrange text-brandPrimaryWhite py-4 px-4 md:px-8 h-28 w-56",
+			linkClass: "bg-brandNeutral-100 border border-brandNeutral-100 text-brandNeutral-800 py-4 px-4 md:px-8 h-28 w-56",
 			number: "01",
-			textColor: "text-brandPrimaryWhite",
+			textColor: "text-brandNeutral-800",
 			label: "Hello",
 			activeEmojiImage: "/emoji/hello-emoji.png",
 		},
 		{
 			link: "#experiences",
-			linkClass:
-				"bg-brandSecondaryPurple border border-brandSecondaryPurple text-brandPrimaryWhite py-4 px-4 md:px-8 h-28 w-56",
+			linkClass: "bg-brandNeutral-150 border border-brandNeutral-150 text-brandNeutral-800 py-4 px-4 md:px-8 h-28 w-56",
 			number: "02",
-			textColor: "text-brandPrimaryWhite",
+			textColor: "text-brandNeutral-800",
 			label: "Experiences",
 			activeEmojiImage: "/emoji/experiences-emoji.png",
 		},
 		{
 			link: "#skillsUses",
-			linkClass:
-				"bg-brandSecondaryBlue border border-brandSecondaryBlue text-brandPrimaryWhite py-4 px-4 md:px-8 h-28 w-56",
+			linkClass: "bg-brandNeutral-200 border border-brandNeutral-200 text-brandNeutral-800 py-4 px-4 md:px-8 h-28 w-56",
 			number: "03",
-			textColor: "text-brandPrimaryWhite",
+			textColor: "text-brandNeutral-800",
 			label: "Skills & Uses",
 			activeEmojiImage: "/emoji/skillsuses-emoji.png",
 		},
 		{
 			link: "#projects",
-			linkClass:
-				"bg-brandSecondaryRed border border-brandSecondaryRed text-brandPrimaryWhite py-4 px-4 md:px-8 h-28 w-56",
+			linkClass: "bg-brandNeutral-300 border border-brandNeutral-300 text-brandNeutral-800 py-4 px-4 md:px-8 h-28 w-56",
 			number: "04",
-			textColor: "text-brandPrimaryWhite",
+			textColor: "text-brandNeutral-800",
 			label: "Projects",
 			activeEmojiImage: "/emoji/projects-emoji.png",
 		},
 		{
 			link: "#contact",
-			linkClass:
-				"bg-brandSecondaryGreen border border-brandSecondaryGreen text-brandNeutral-800 py-4 px-4 md:px-8 h-28 w-56",
+			linkClass: "bg-brandNeutral-400 border border-brandNeutral-400 text-brandNeutral-800 py-4 px-4 md:px-8 h-28 w-56",
 			number: "05",
 			textColor: "text-brandNeutral-800",
 			label: "Contact",
