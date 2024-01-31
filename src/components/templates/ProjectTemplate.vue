@@ -43,25 +43,25 @@
 		<div
 			class="bg-brandPrimaryWhite dark:bg-brandNeutral-800 border border-brandNeutral-800 dark:border-brandPrimaryWhite p-4 xl:p-8 rounded-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite font-satoshi text-xl md:text-4xl xl:text-6xl leading-tight mt-4 xl:mt-8">
 			<p>
-				<a href="http://yangedruce.com/dashbuilt" target="_blank"> dashbuilt </a>
+				<a href="https://yangedruce.com/dashbuilt" target="_blank"> dashbuilt </a>
 				<a
-					href="https://mysume.yangedruce.com/login"
+					href="https://mysume.com/login"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					mysume
 				</a>
-				<a href="http://yangedruce.com/qutuworldwide" target="_blank"> qutu worldwide </a>
+				<a href="https://yangedruce.com/qutuworldwide" target="_blank"> qutu worldwide </a>
 				<a
-					href="https://github.com/yangedruce/spinny"
+					href="https://spinny.yangedruce.com/"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					spinny
 				</a>
-				<a href="https://github.com/yangedruce/tasky" target="_blank"> tasky </a>
+				<a href="https://tasky.yangedruce.com/" target="_blank"> tasky </a>
 				<a
-					href="http://yangedruce.com/"
+					href="https://yangedruce.com/"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
