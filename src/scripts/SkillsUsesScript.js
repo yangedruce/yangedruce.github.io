@@ -5,7 +5,10 @@ const bulletItemClasses = "text-brandNeutral-400 mt-2";
 const bulletItemTextClasses = "text-brandPrimaryWhite";
 
 const bulletPointsDevelopmentSkills = [
-	"HTML / CSS / JS",
+	"HTML",
+	"CSS",
+	"JQuery",
+	"JavaScripts",
 	"PHP",
 	"Laravel",
 	"Alpine.js",
@@ -15,10 +18,14 @@ const bulletPointsDevelopmentSkills = [
 	"WordPress",
 	"Vue.js",
 	"Node.js",
-	"React.js (a bit)",
 	"GSAP (a bit)",
-	"Three.js (a bit)",
 	"Alpine.js",
+	"Swiper.js",
+	"Python",
+	"C",
+	"C++",
+	"MySQL",
+	"phpMyAdmin",
 	"Well structured code",
 	"Animations / transitions",
 ];
@@ -60,6 +67,7 @@ const bulletPointsWorkTools = [
 	"WordPress",
 	"Webflow",
 	"Local",
+	"Laragon",
 	"Github",
 	"Chrome, Safari, Edge, Fire and Opera Web Browsers",
 ];
