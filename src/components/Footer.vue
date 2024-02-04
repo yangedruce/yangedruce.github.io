@@ -17,7 +17,7 @@
 		</div>
 		<div class="flex flex-col md:flex-row justify-between items-center md:h-16 md:pt-0 mb-32 xl:mb-52 mt-8">
 			<p class="font-satoshi text-center md:text-start text-xs md:text-base text-brandNeutral-500">
-				© 2015–2023 Yang Edruce.
+				© 2015–2024 Yang Edruce.
 				<br />
 				All rights are reserved.
 			</p>
