@@ -1,9 +1,17 @@
 <template>
 	<div
 		class="xl:hidden fixed z-[60] w-screen text-brandNeutral-800 dark:text-brandPrimaryWhite bg-brandPrimaryWhite dark:bg-brandPrimaryBlack">
-		<button class="absolute right-7 top-2 text-xs md:text-base font-satoshi" @click="open">Menu</button>
+		<button
+			class="absolute right-6 md:right-4 top-2 text-xs md:text-base font-satoshi text-center py-3 px-2 xl:px-4 h-12 md:h-16 w-12 md:w-16 md:mr-2 text-brandNeutral-800 dark:text-brandPrimaryWhite border border-brandNeutral-800 dark:border-brandPrimaryWhite bg-brandPrimaryWhite dark:bg-brandNeutral-800 rounded-2xl drop-shadow-xl shadow-brandPrimaryBlack"
+			@click="open">
+			Menu
+		</button>
 		<div id="menu" class="hidden fixed top-0 left-0 h-screen w-screen bg-brandPrimaryWhite dark:bg-brandPrimaryBlack">
-			<button class="text-xs md:text-base font-satoshi absolute right-7 top-6" @click="close">Close</button>
+			<button
+				class="text-xs md:text-base font-satoshi absolute right-6 md:right-4 top-6 text-center py-3 px-2 xl:px-4 h-12 md:h-16 w-12 md:w-16 md:mr-2 text-brandNeutral-800 dark:text-brandPrimaryWhite border border-brandNeutral-800 dark:border-brandPrimaryWhite bg-brandPrimaryWhite dark:bg-brandNeutral-800 rounded-2xl drop-shadow-xl shadow-brandPrimaryBlack"
+				@click="close">
+				Close
+			</button>
 			<ul class="space-y-4 md:space-y-8 p-6">
 				<template v-for="(item, index) in navigationItems">
 					<li class="flex">
@@ -18,7 +26,7 @@
 				<button
 					@click="toggleDark()"
 					type="button"
-					class="text-center py-3 px-2 xl:px-4 w-full md:mr-2 font-satoshi font-bold text-sm md:text-base text-brandNeutral-800 dark:text-brandPrimaryWhite border border-brandNeutral-800 dark:border-brandPrimaryWhite bg-brandNeutral-50 dark:bg-brandNeutral-800 rounded-2xl drop-shadow-xl shadow-brandPrimaryBlack">
+					class="text-center py-3 px-2 xl:px-4 w-full md:mr-2 font-satoshi font-bold text-sm md:text-base text-brandNeutral-800 dark:text-brandPrimaryWhite border border-brandNeutral-800 dark:border-brandPrimaryWhite bg-brandPrimaryWhite dark:bg-brandNeutral-800 rounded-2xl drop-shadow-xl shadow-brandPrimaryBlack">
 					{{ isDarkMode ? "Change to light mode." : "Change to dark mode." }}
 				</button>
 				<div
