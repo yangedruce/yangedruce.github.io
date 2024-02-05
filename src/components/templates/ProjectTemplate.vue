@@ -42,31 +42,118 @@
 		</div>
 		<div
 			class="bg-brandPrimaryWhite dark:bg-brandNeutral-800 border border-brandNeutral-800 dark:border-brandPrimaryWhite p-4 xl:p-8 rounded-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite font-satoshi text-xl md:text-4xl xl:text-6xl leading-tight mt-4 xl:mt-8">
+			<div
+				class="flex justify-center items-center gap-4 font-satoshi font-bold text-sm md:text-xl xl:text-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite mt-0 mb-4 xl:mt-4 xl:mb-8">
+				<div class="border border-brandNeutral-500 w-full"></div>
+				<p>Personal</p>
+				<div class="border border-brandNeutral-500 w-full"></div>
+			</div>
 			<p>
-				<a href="https://yangedruce.com/dashbuilt" target="_blank"> dashbuilt </a>
+				<a href="https://www.yangedruce.com/dashbuilt" target="_blank"> dashbuilt </a>
 				<a
-					href="https://mysume.com/login"
+					href="https://www.mysume.com/login"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					mysume
 				</a>
-				<a href="https://yangedruce.com/qutuworldwide" target="_blank"> qutu worldwide </a>
+				<a href="https://www.yangedruce.com/qutuworldwide" target="_blank"> qutu worldwide </a>
 				<a
-					href="https://spinny.yangedruce.com/"
+					href="https://www.spinny.yangedruce.com/"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					spinny
 				</a>
-				<a href="https://tasky.yangedruce.com/" target="_blank"> tasky </a>
+				<a href="https://www.tasky.yangedruce.com/" target="_blank"> tasky </a>
 				<a
-					href="https://yangedruce.com/"
+					href="https://www.yangedruce.com/"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					yang edruce
 				</a>
+			</p>
+			<div
+				class="flex justify-center items-center gap-4 font-satoshi font-bold text-sm md:text-xl xl:text-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite mt-8 mb-4 xl:mt-16 xl:mb-8">
+				<div class="border border-brandNeutral-500 w-full"></div>
+				<p>Work</p>
+				<div class="border border-brandNeutral-500 w-full"></div>
+			</div>
+			<p>
+				<a href="https://www.code413.io" target="_blank"> code413 </a>
+				<a
+					href="https://www.4thirteen.com.my"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					4Thirteen
+				</a>
+				<a href="https://sunplay.com.my/" target="_blank"> sunplay </a>
+				<a
+					href="https://mentholatumlipcare.com.my/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					lipcare
+				</a>
+				<a href="https://www.hrbolt.co" target="_blank"> hrbolt </a>
+				<a
+					href="https://eatsi.code413.io/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					EATSI (staging)
+				</a>
+				<a href="https://dermistry.com.my/" target="_blank"> dermistry </a>
+				<a
+					href="https://mtbc.my/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					MTBC
+				</a>
+				<a href="https://sayajugaanakmalaysia.my/" target="_blank"> family frontier </a>
+				<a
+					href="https://www.yoodo.com.my/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					yoodo
+				</a>
+				<a href="https://www.booking.suriaklcc.com.my/" target="_blank"> klcc </a>
+				<a
+					href="https://www.booking.alamanda.com.my/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					alamanda
+				</a>
+			</p>
+			<div
+				class="flex justify-center items-center gap-4 font-satoshi font-bold text-sm md:text-xl xl:text-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite mt-8 mb-4 xl:mt-16 xl:mb-8">
+				<div class="border border-brandNeutral-500 w-full"></div>
+				<p>Archieved</p>
+				<div class="border border-brandNeutral-500 w-full"></div>
+			</div>
+			<p>
+				<a href="https://www.yangedruce.com/yangedruce-archive" target="_blank"> yang edruce </a>
+				<a
+					href="https://www.rekabyte-2020.yangedruce.com/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					rekabyte (2020)
+				</a>
+				<a href="https://www.rekabyte-2023.yangedruce.com/" target="_blank"> rekabyte technology </a>
+				<a
+					href="https://www.tonggakmega.yangedruce.com/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					tonggak mega
+				</a>
+				<a href="https://www.parallax.yangedruce.com/" target="_blank"> parallax </a>
 			</p>
 		</div>
 	</section>
