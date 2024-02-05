@@ -145,7 +145,7 @@
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					rekabyte (2020)
 				</a>
-				<a href="https://www.rekabyte-2023.yangedruce.com/" target="_blank"> rekabyte technology </a>
+				<a href="https://www.rekabyte-technology.yangedruce.com/" target="_blank"> rekabyte technology </a>
 				<a
 					href="https://www.tonggakmega.yangedruce.com/"
 					target="_blank"
