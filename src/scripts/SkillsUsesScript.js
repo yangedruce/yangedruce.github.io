@@ -17,7 +17,6 @@ const bulletPointsDevelopmentSkills = [
 	"Vue.js",
 	"Node.js",
 	"GSAP (a bit)",
-	"Alpine.js",
 	"Swiper.js",
 	"Python",
 	"C",
