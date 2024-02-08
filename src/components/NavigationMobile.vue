@@ -6,7 +6,10 @@
 			@click="open">
 			Menu
 		</button>
-		<div id="menu" class="hidden fixed top-0 left-0 h-screen w-screen bg-brandPrimaryWhite dark:bg-brandPrimaryBlack">
+		<div
+			id="menu"
+			class="hidden fixed top-0 left-0 w-screen bg-brandPrimaryWhite dark:bg-brandPrimaryBlack overflow-y-auto"
+			:class="{ 'h-screen': isPortrait, 'h-full': !isPortrait }">
 			<button
 				class="text-xs md:text-base font-satoshi absolute right-6 md:right-4 top-6 text-center py-3 px-2 xl:px-4 h-12 md:h-16 w-12 md:w-16 md:mr-2 text-brandNeutral-800 dark:text-brandPrimaryWhite border border-brandNeutral-800 dark:border-brandPrimaryWhite bg-brandPrimaryWhite dark:bg-brandNeutral-800 rounded-2xl drop-shadow-xl shadow-brandPrimaryBlack"
 				@click="close">
@@ -44,6 +47,7 @@
 </template>
 
 <script setup>
+	import { ref } from "vue";
 	import { isDarkMode, toggleDark } from "@/darkModeMixin";
 
 	const navigationItems = [
@@ -74,6 +78,8 @@
 		},
 	];
 
+	const isPortrait = ref(window.matchMedia("(orientation: portrait)").matches);
+
 	function open(event) {
 		const menu = document.getElementById("menu");
 		menu.classList.remove("hidden");
@@ -83,6 +89,10 @@
 		const menu = document.getElementById("menu");
 		menu.classList.add("hidden");
 	}
+
+	window.addEventListener("orientationchange", () => {
+		isPortrait.value = window.matchMedia("(orientation: portrait)").matches;
+	});
 </script>
 
 <script>
