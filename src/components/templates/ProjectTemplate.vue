@@ -99,11 +99,11 @@
 				</a>
 				<a href="https://www.hrbolt.co" target="_blank"> hrbolt </a>
 				<a
-					href="https://eatsi.code413.io/"
+					href="https://eatsi.co.uk/"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
-					EATSI (staging)
+					EATSI
 				</a>
 				<a href="https://dermistry.com.my/" target="_blank"> dermistry </a>
 				<a
