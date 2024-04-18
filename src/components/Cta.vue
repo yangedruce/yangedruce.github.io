@@ -11,8 +11,8 @@
 				class="flex items-center justify-center text-center mt-2 md:mt-3 xl:mt-2.5 py-3 w-40 md:w-56 font-satoshi font-bold text-sm md:text-base text-brandPrimaryWhite border border-brandNeutral-800 dark:border-brandPrimaryWhite bg-brandNeutral-800 dark:bg-brandPrimaryBlack rounded-2xl drop-shadow-xl shadow-brandPrimaryBlack">
 				<span class="relative flex h-3 w-3 mr-4">
 					<span
-						class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brandSecondaryGreen opacity-75"></span>
-					<span class="relative inline-flex rounded-full h-3 w-3 bg-brandSecondaryGreen"></span>
+						class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brandSecondaryRed opacity-75"></span>
+					<span class="relative inline-flex rounded-full h-3 w-3 bg-brandSecondaryRed"></span>
 				</span>
 				<span>Available to work</span>
 			</div>

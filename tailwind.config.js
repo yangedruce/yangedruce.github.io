@@ -65,6 +65,9 @@ module.exports = {
 			brandSecondaryGreen: {
 				DEFAULT: "#75FB4C",
 			},
+			brandSecondaryRed: {
+				DEFAULT: "#EA3345",
+			},
 			brandNeutral: {
 				50: "#F2E9E2",
 				100: "#F5F5F5",
