@@ -9,6 +9,13 @@ const rightExperienceClasses =
 const bulletItemClasses = "text-brandNeutral-400 mt-2";
 const bulletItemTextClasses = "text-brandPrimaryWhite";
 
+const bulletPointsWebDesigner = [
+	"Primarily focus on broad aspects of front-end development, write clean, efficient, and maintainable HTML, CSS, and JavaScript code to implement UI/UX designs, ensure cross-browser compatibility and responsiveness of applications for a consistent user experience across various devices and platforms and keep abreast of industry trends, emerging technologies, and best practices in front-end development.",
+	"Collaborate closely with design teams to translate visual concepts into interactive user interfaces and work closely with back-end developers to integrate front-end components seamlessly.",
+	"Participate in code reviews and provide constructive feedback to optimize code quality, identify and troubleshoot UX issues and implement improvements based on user feedback.",
+	"Restructure code for existing projects and current projects to improve organisation and guarantee maintainability.",
+];
+
 const bulletPointsWebDeveloper = [
 	"Developed websites and web applications for both clients and the company's own product portfolio, wrote code for both the back-end and front-end, enhanced and maintained the company's existing projects  and participated in all aspects of web projects, such as ideation, design, development, deployment, optimization, and maintenance.",
 	"Demonstrated the websites, web applications and systems to the clients and potential clients by ensuring a clear understanding of the proposed system and iterated based on stakeholders’ feedback.",
@@ -64,6 +71,7 @@ export {
 	rightExperienceClasses,
 	bulletItemClasses,
 	bulletItemTextClasses,
+	bulletPointsWebDesigner,
 	bulletPointsWebDeveloper,
 	bulletPointsAchievementsWebDeveloper,
 	bulletPointsFrontEndDeveloper,

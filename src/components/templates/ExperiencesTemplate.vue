@@ -51,6 +51,50 @@
 					</span>
 				</div>
 				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite mt-8 px-5 xl:px-0">
+					InspireNow Sdn. Bhd.
+				</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
+					Bangsar South, Kuala Lumpur, Malaysia
+				</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
+					Feb 2024 - Present | Contract | On-Site
+				</p>
+				<Divider />
+				<div class="block xl:hidden px-4 xl:px-8">
+					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite">Web Designer (HTML/CSS)</p>
+					<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
+						<li :class="bulletItemClasses" v-for="item in bulletPointsWebDesigner" :key="item">
+							<span :class="bulletItemTextClasses">
+								{{ item }}
+							</span>
+						</li>
+					</ul>
+					<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
+						Delivered Projects:
+						<span class="font-normal">
+							InspireNow, KardAsia, PNB, Kasih Hospice Foundation
+						</span>
+					</p>
+				</div>
+			</div>
+			<div :class="rightExperienceClasses">
+				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Web Designer (HTML/CSS)</p>
+				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
+					<li :class="bulletItemClasses" v-for="item in bulletPointsWebDesigner" :key="item">
+						<span :class="bulletItemTextClasses">
+							{{ item }}
+						</span>
+					</li>
+				</ul>
+				<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
+					Delivered Projects:
+					<span class="font-normal">
+						InspireNow, KardAsia, PNB, Kasih Hospice Foundation
+					</span>
+				</p>
+			</div>
+			<div :class="leftExperienceClasses">
+				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite px-5 xl:px-0">
 					4Thirteen Group Sdn. Bhd.
 				</p>
 				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
@@ -92,7 +136,7 @@
 				</div>
 			</div>
 			<div :class="rightExperienceClasses">
-				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Former Web Developer</p>
+				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Web Developer</p>
 				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
 					<li :class="bulletItemClasses" v-for="item in bulletPointsWebDeveloper" :key="item">
 						<span :class="bulletItemTextClasses">
@@ -244,6 +288,7 @@
 		rightExperienceClasses,
 		bulletItemClasses,
 		bulletItemTextClasses,
+		bulletPointsWebDesigner,
 		bulletPointsWebDeveloper,
 		bulletPointsAchievementsWebDeveloper,
 		bulletPointsFrontEndDeveloper,
