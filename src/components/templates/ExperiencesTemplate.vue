@@ -46,7 +46,7 @@
 			<div :class="leftExperienceClasses">
 				<div class="px-4 xl:px-0">
 					<span
-						class="bg-brandNeutral-400 text-brandNeutral-800 text-sm text-center font-satoshi font-bold uppercase rounded-full py-1 w-24 px-4">
+						class="bg-brandSecondaryGreen text-brandNeutral-800 text-sm text-center font-satoshi font-bold uppercase rounded-full py-1 w-24 px-4">
 						CURRENT
 					</span>
 				</div>
