@@ -9,6 +9,15 @@ const rightExperienceClasses =
 const bulletItemClasses = "text-brandNeutral-400 mt-2";
 const bulletItemTextClasses = "text-brandPrimaryWhite";
 
+const bulletPointsFullStackDeveloper = [
+	"Develop and manage strategies for project execution based on industry best practices and emerging trends.",
+	"Oversee the selection and implementation of technology solutions to optimize project outcomes.",
+	"Ensure that technology strategies are aligned with the overall goals and objectives of the projects.",
+	"Conduct thorough research to identify and evaluate potential technological solutions and configurations required for project success.",
+	"Stay abreast of technological advancements and recommend improvements or new tools that could benefit project efficiency and effectiveness.",
+	"Work closely with relevant stakeholders to design and implement technological setups that meet project requirements.",
+];
+
 const bulletPointsWebDesigner = [
 	"Primarily focus on broad aspects of front-end development, write clean, efficient, and maintainable HTML, CSS, and JavaScript code to implement UI/UX designs, ensure cross-browser compatibility and responsiveness of applications for a consistent user experience across various devices and platforms and keep abreast of industry trends, emerging technologies, and best practices in front-end development.",
 	"Collaborate closely with design teams to translate visual concepts into interactive user interfaces and work closely with back-end developers to integrate front-end components seamlessly.",
@@ -71,6 +80,7 @@ export {
 	rightExperienceClasses,
 	bulletItemClasses,
 	bulletItemTextClasses,
+	bulletPointsFullStackDeveloper,
 	bulletPointsWebDesigner,
 	bulletPointsWebDeveloper,
 	bulletPointsAchievementsWebDeveloper,

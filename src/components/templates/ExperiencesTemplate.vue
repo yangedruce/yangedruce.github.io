@@ -54,14 +54,24 @@
 					InspireNow Sdn. Bhd.
 				</p>
 				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
-					Bangsar South, Kuala Lumpur, Malaysia
+					The Stride @ BBCC, Kuala Lumpur
 				</p>
 				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
 					Feb 2024 - Present | Contract | On-Site
 				</p>
 				<Divider />
 				<div class="block xl:hidden px-4 xl:px-8">
-					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite">Web Designer (HTML/CSS)</p>
+					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite">Full Stack Developer</p>
+					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sep 2024 - Present</p>
+					<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
+						<li :class="bulletItemClasses" v-for="item in bulletPointsFullStackDeveloper" :key="item">
+							<span :class="bulletItemTextClasses">
+								{{ item }}
+							</span>
+						</li>
+					</ul>
+					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite mt-6">Web Designer (HTML/CSS)</p>
+					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Feb 2024 - August 2024</p>
 					<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
 						<li :class="bulletItemClasses" v-for="item in bulletPointsWebDesigner" :key="item">
 							<span :class="bulletItemTextClasses">
@@ -72,13 +82,23 @@
 					<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
 						Delivered Projects:
 						<span class="font-normal">
-							InspireNow, KardAsia, PNB, Kasih Hospice Foundation
+							InspireNow, Kard Asia, PNB, Kasih Hospice Foundation, INKA, ASNB, CRS, SST
 						</span>
 					</p>
 				</div>
 			</div>
 			<div :class="rightExperienceClasses">
-				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Web Designer (HTML/CSS)</p>
+				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Full Stack Developer</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sep 2024 - Present</p>
+				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
+					<li :class="bulletItemClasses" v-for="item in bulletPointsFullStackDeveloper" :key="item">
+						<span :class="bulletItemTextClasses">
+							{{ item }}
+						</span>
+					</li>
+				</ul>
+				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite mt-6">Web Designer (HTML/CSS)</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Feb 2024 - August 2024</p>
 				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
 					<li :class="bulletItemClasses" v-for="item in bulletPointsWebDesigner" :key="item">
 						<span :class="bulletItemTextClasses">
@@ -88,9 +108,7 @@
 				</ul>
 				<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
 					Delivered Projects:
-					<span class="font-normal">
-						InspireNow, KardAsia, PNB, Kasih Hospice Foundation
-					</span>
+					<span class="font-normal"> InspireNow, Kard Asia, PNB, Kasih Hospice Foundation, INKA, ASNB, CRS, SST </span>
 				</p>
 			</div>
 			<div :class="leftExperienceClasses">
@@ -288,6 +306,7 @@
 		rightExperienceClasses,
 		bulletItemClasses,
 		bulletItemTextClasses,
+		bulletPointsFullStackDeveloper,
 		bulletPointsWebDesigner,
 		bulletPointsWebDeveloper,
 		bulletPointsAchievementsWebDeveloper,
