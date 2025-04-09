@@ -82,7 +82,7 @@
 					<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
 						Delivered Projects:
 						<span class="font-normal">
-							InspireNow, Kard Asia, PNB, Kasih Hospice Foundation, INKA, ASNB, CRS, SST
+							InspireNow, KardAsia, PNB, ASNB,  Kasih Hospice Foundation, CTS Lawyers, INKA, IICM, SST, CRS
 						</span>
 					</p>
 				</div>
@@ -108,7 +108,7 @@
 				</ul>
 				<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
 					Delivered Projects:
-					<span class="font-normal"> InspireNow, Kard Asia, PNB, Kasih Hospice Foundation, INKA, ASNB, CRS, SST </span>
+					<span class="font-normal"> InspireNow, KardAsia, PNB, ASNB,  Kasih Hospice Foundation, CTS Lawyers, INKA, IICM, SST, CRS </span>
 				</p>
 			</div>
 			<div :class="leftExperienceClasses">

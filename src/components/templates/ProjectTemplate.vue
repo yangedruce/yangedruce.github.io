@@ -129,6 +129,46 @@
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					alamanda
 				</a>
+				<a href="https://inspirenow.com.my/" target="_blank"> InspireNow </a>
+				<a
+					href="https://kardasia.com/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					KardAsia
+				</a>
+				<a href="https://www.pnb.com.my/en" target="_blank"> PNB </a>
+				<a
+					href="https://www.asnb.com.my/asnbv2_0index_EN.php"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					ASNB
+				</a>
+				<a href="https://kasihfoundation.org/" target="_blank"> Kasih Hospice Foundation </a>
+				<a
+					href="https://www.ctslawyers.com.my/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					CTS Lawyers
+				</a>
+				<a href="https://inka.my/" target="_blank"> INKA </a>
+				<a
+					href="https://iicm.dataristic.com/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					IICM (staging)
+				</a>
+				<a href="https://sendsomething.io/" target="_blank"> SST </a>
+				<a
+					href="https://crs.inspirenow.com.my/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					CRS
+				</a>
 			</p>
 			<div
 				class="flex justify-center items-center gap-4 font-satoshi font-bold text-sm md:text-xl xl:text-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite mt-8 mb-4 xl:mt-16 xl:mb-8">

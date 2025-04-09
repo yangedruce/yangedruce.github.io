@@ -16,6 +16,12 @@ const bulletPointsFullStackDeveloper = [
 	"Conduct thorough research to identify and evaluate potential technological solutions and configurations required for project success.",
 	"Stay abreast of technological advancements and recommend improvements or new tools that could benefit project efficiency and effectiveness.",
 	"Work closely with relevant stakeholders to design and implement technological setups that meet project requirements.",
+	"Managed multiple concurrent projects across teams, owning the full technical lifecycle from planning to deployment.",
+	"Provided architectural direction, DevOps configuration, code review, and system design while guiding junior developers and interns.",
+	"Took lead on architecture planning, technology decisions, and best practice implementation.",
+	"Acted as a bridge between project management and development such as resolving blockers, adjusting scope, and managing expectations. Handled QA testing, UAT scripts, and performance tuning for high-traffic production releases.",
+	"Supported DevOps (CI/CD), infrastructure, and security assessments.",
+	"Provided technical mentorship to junior developers and interns.",
 ];
 
 const bulletPointsWebDesigner = [

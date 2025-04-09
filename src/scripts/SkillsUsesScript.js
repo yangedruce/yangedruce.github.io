@@ -29,6 +29,12 @@ const bulletPointsDevelopmentSkills = [
 	"Linux / Ubuntu",
 	"Drupal",
 	"Astro.js",
+	"Flutter",
+	"Tenable Nessus",
+	"Burp Suite",
+	"Cloudflare",
+	"cPanel",
+	"WHM",
 	"Well structured code",
 	"Animations / transitions",
 ];
@@ -56,7 +62,7 @@ const bulletPointsSoftSkills = [
 ];
 
 const bulletPointsWorkstation = [
-	'13" MacBook Air 2020<br class="hidden md:block lg:hidden" />3.2Ghz M1, 8GB<br class="block md:hidden" />RAM, 256GB Storage (Rose Gold)',
+	'14" MacBook Pro <br class="hidden md:block lg:hidden" /> M4, 16GB<br class="block md:hidden" />RAM, 512GB Storage (Silver)',
 	'29.5" Acer Nitro XZ306C 200Hz, 2560 x 1080 Curved Monitor (White) With Custom White PC Built (Linux)',
 	'Cooler Master CK720 65% Gaming Keyboard (Space Gray) With Custom Pikachu Keycaps and Switches',
 	"Venom II WGC2 Space Edition Wireless Mouse (White)",
