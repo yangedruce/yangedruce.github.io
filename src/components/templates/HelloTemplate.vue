@@ -54,7 +54,7 @@
 				and I am a creative web developer and multi-disciplinary designer.
 			</p>
 			<p class="mt-8 md:mt-16 xl:mt-24">
-				I have 6 years of development experience, most of which was spent working with agencies. I specialise in
+				I have 61 years of development experience, most of which was spent working with agencies. I specialise in
 				creating visually stunning websites and web applications that drive business growth. I have a deep passion for
 				<span
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
