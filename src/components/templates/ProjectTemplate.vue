@@ -73,6 +73,7 @@
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					yang edruce
 				</a>
+				<a href="https://www.makando.yangedruce.com/" target="_blank"> makando </a>
 			</p>
 			<div
 				class="flex justify-center items-center gap-4 font-satoshi font-bold text-sm md:text-xl xl:text-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite mt-8 mb-4 xl:mt-16 xl:mb-8">
