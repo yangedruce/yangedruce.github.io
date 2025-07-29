@@ -51,18 +51,52 @@
 					</span>
 				</div>
 				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite mt-8 px-5 xl:px-0">
+					Todak Digitech Sdn. Bhd.
+				</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
+					Cyberjaya, Selangor
+				</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
+					Jun 2025 - Present | Full-time | On-Site
+				</p>
+				<Divider />
+				<div class="block xl:hidden px-4 xl:px-8">
+					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite">Web Developer</p>
+					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Jun 2025 - Present</p>
+					<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
+						<li :class="bulletItemClasses" v-for="item in bulletPointsTodakWebDeveloper" :key="item">
+							<span :class="bulletItemTextClasses">
+								{{ item }}
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div :class="rightExperienceClasses">
+				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Web Developer</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Jun 2025 - Present</p>
+				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
+					<li :class="bulletItemClasses" v-for="item in bulletPointsTodakWebDeveloper" :key="item">
+						<span :class="bulletItemTextClasses">
+							{{ item }}
+						</span>
+					</li>
+				</ul>
+			</div>
+			<div :class="leftExperienceClasses">
+				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite px-5 xl:px-0">
 					InspireNow Sdn. Bhd.
 				</p>
 				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
 					The Stride @ BBCC, Kuala Lumpur
 				</p>
 				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
-					Feb 2024 - Present | Contract | On-Site
+					Feb 2024 - Apr 2025 | Contract | On-Site
 				</p>
 				<Divider />
 				<div class="block xl:hidden px-4 xl:px-8">
 					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite">Full Stack Developer</p>
-					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sep 2024 - Present</p>
+					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sep 2024 - Apr 2025</p>
 					<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
 						<li :class="bulletItemClasses" v-for="item in bulletPointsFullStackDeveloper" :key="item">
 							<span :class="bulletItemTextClasses">
@@ -89,7 +123,7 @@
 			</div>
 			<div :class="rightExperienceClasses">
 				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Full Stack Developer</p>
-				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sep 2024 - Present</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sep 2024 - Apr 2025</p>
 				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
 					<li :class="bulletItemClasses" v-for="item in bulletPointsFullStackDeveloper" :key="item">
 						<span :class="bulletItemTextClasses">
@@ -307,6 +341,7 @@
 		bulletItemClasses,
 		bulletItemTextClasses,
 		bulletPointsFullStackDeveloper,
+		bulletPointsTodakWebDeveloper,
 		bulletPointsWebDesigner,
 		bulletPointsWebDeveloper,
 		bulletPointsAchievementsWebDeveloper,

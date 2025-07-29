@@ -24,6 +24,19 @@ const bulletPointsFullStackDeveloper = [
 	"Provided technical mentorship to junior developers and interns.",
 ];
 
+const bulletPointsTodakWebDeveloper = [
+	"Develop and maintain web applications using modern technologies and frameworks.",
+	"Design and implement APIs and backend systems using Node.js and Strapi for mobile and web applications.",
+	"Build workflow automation solutions using n8n to streamline business processes.",
+	"Develop robust API endpoints and backend infrastructure for mobile applications, web applications and systems.",
+	"Build new and maintain existing applications and systems to ensure optimal performance and functionality.",
+	"Collaborate with cross-functional teams to deliver high-quality software solutions.",
+	"Write clean, efficient, and maintainable code following industry best practices.",
+	"Participate in code reviews and provide constructive feedback to team members.",
+	"Troubleshoot and debug applications to ensure optimal performance.",
+	"Stay updated with latest web development trends and technologies.",
+];
+
 const bulletPointsWebDesigner = [
 	"Primarily focus on broad aspects of front-end development, write clean, efficient, and maintainable HTML, CSS, and JavaScript code to implement UI/UX designs, ensure cross-browser compatibility and responsiveness of applications for a consistent user experience across various devices and platforms and keep abreast of industry trends, emerging technologies, and best practices in front-end development.",
 	"Collaborate closely with design teams to translate visual concepts into interactive user interfaces and work closely with back-end developers to integrate front-end components seamlessly.",
@@ -87,6 +100,7 @@ export {
 	bulletItemClasses,
 	bulletItemTextClasses,
 	bulletPointsFullStackDeveloper,
+	bulletPointsTodakWebDeveloper,
 	bulletPointsWebDesigner,
 	bulletPointsWebDeveloper,
 	bulletPointsAchievementsWebDeveloper,
