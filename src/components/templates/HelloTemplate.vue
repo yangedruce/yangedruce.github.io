@@ -45,11 +45,11 @@
 		<div
 			class="bg-brandPrimaryWhite dark:bg-brandNeutral-800 border border-brandNeutral-800 dark:border-brandPrimaryWhite p-4 xl:p-8 rounded-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite font-satoshi text-xl md:text-4xl xl:text-6xl leading-tight mt-4 xl:mt-8">
 			<p>
-				Hello, I'm Nurul Izyan Syaza, aka
+				Hello, I'm
 				<span
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
-					Yang Edruce,
+				  Nurul Izyan Syaza,
 				</span>
 				and I am a creative web developer and multi-disciplinary designer.
 			</p>

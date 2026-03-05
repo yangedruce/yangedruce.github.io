@@ -10,21 +10,21 @@
 		</div>
 		<div
 			class="flex justify-center items-center gap-8 md:gap-12 text-xs md:text-base text-brandNeutral-400 font-satoshi font-bold mt-8 xl:mt-16">
-			<a href="https://www.github.com/yangedruce" target="_blank">Github</a>
-			<a href="https://www.behance.net/yangedruce" target="_blank">Behance</a>
-			<a href="https://www.linkedin.com/in/yangedruce/" target="_blank">LinkedIn</a>
-			<a href="mailto:hello@yangedruce.com" target="_blank">Email</a>
+			<a href="https://www.github.com/nurulizyansyaza" target="_blank">Github</a>
+			<a href="https://www.behance.net/nurulizyansyaza" target="_blank">Behance</a>
+			<a href="https://www.linkedin.com/in/nurulizyansyaza/" target="_blank">LinkedIn</a>
+			<a href="mailto:hello@nurulizyansyaza.com" target="_blank">Email</a>
 		</div>
 		<div class="flex flex-col md:flex-row justify-between items-center md:h-16 md:pt-0 mb-32 xl:mb-52 mt-8">
 			<p class="font-satoshi text-center md:text-start text-xs md:text-base text-brandNeutral-500">
-				© 2015–2024 Yang Edruce.
+				© 2015–2026 Nurul Izyan Syaza.
 				<br />
 				All rights are reserved.
 			</p>
 			<p class="font-satoshi text-center md:text-end text-xs md:text-base text-brandNeutral-500 mt-4 md:mt-0">
 				Designed and developed by
 				<br />
-				Yang Edruce.
+				Nurul Izyan Syaza.
 			</p>
 		</div>
 	</footer>

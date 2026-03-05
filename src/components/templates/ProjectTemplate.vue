@@ -49,31 +49,31 @@
 				<div class="border border-brandNeutral-500 w-full"></div>
 			</div>
 			<p>
-				<a href="https://www.yangedruce.com/dashbuilt" target="_blank"> dashbuilt </a>
+				<a href="https://github.com/nurulizyansyaza/dashbuilt" target="_blank"> dashbuilt </a>
 				<a
-					href="https://www.mysume.com/login"
+					href="https://github.com/nurulizyansyaza/mysume"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					mysume
 				</a>
-				<a href="https://www.yangedruce.com/qutuworldwide" target="_blank"> qutu worldwide </a>
+				<a href="https://github.com/nurulizyansyaza/qutuworldwide" target="_blank"> qutu worldwide </a>
 				<a
-					href="https://www.spinny.yangedruce.com/"
+					href="https://github.com/nurulizyansyaza/spinny"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					spinny
 				</a>
-				<a href="https://www.tasky.yangedruce.com/" target="_blank"> tasky </a>
+				<a href="https://github.com/nurulizyansyaza/tasky" target="_blank"> tasky </a>
 				<a
-					href="https://www.yangedruce.com/"
+					href="https://www.nurulizyansyaza.com/"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
-					yang edruce
+					Nurul Izyan Syaza
 				</a>
-				<a href="https://www.makando.yangedruce.com/" target="_blank"> makando </a>
+				<a href="https://github.com/nurulizyansyaza/makando" target="_blank"> makando </a>
 			</p>
 			<div
 				class="flex justify-center items-center gap-4 font-satoshi font-bold text-sm md:text-xl xl:text-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite mt-8 mb-4 xl:mt-16 xl:mb-8">
@@ -209,23 +209,23 @@
 				<div class="border border-brandNeutral-500 w-full"></div>
 			</div>
 			<p>
-				<a href="https://www.yangedruce.com/yangedruce-archive" target="_blank"> yang edruce </a>
+				<a href="https://github.com/nurulizyansyaza/yangedruce-archive" target="_blank"> yang edruce </a>
 				<a
-					href="https://www.rekabyte-2020.yangedruce.com/"
+					href="https://github.com/nurulizyansyaza/rekabyte"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					rekabyte (2020)
 				</a>
-				<a href="https://www.rekabyte-technology.yangedruce.com/" target="_blank"> rekabyte technology </a>
+				<a href="https://www.rekabyte-technology.nurulizyansyaza.com/" target="_blank"> rekabyte technology </a>
 				<a
-					href="https://www.tonggakmega.yangedruce.com/"
+					href="https://www.tonggakmega.nurulizyansyaza.com/"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					tonggak mega
 				</a>
-				<a href="https://www.parallax.yangedruce.com/" target="_blank"> parallax </a>
+				<a href="https://www.parallax.nurulizyansyaza.com/" target="_blank"> parallax </a>
 			</p>
 		</div>
 	</section>
