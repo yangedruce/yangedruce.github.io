@@ -54,16 +54,16 @@
 				and I am a creative web developer and multi-disciplinary designer.
 			</p>
 			<p class="mt-8 md:mt-16 xl:mt-24">
-				I have 6 years of development experience, most of which was spent working with agencies. I specialise in
+				I have over 7 years of development experience, most of which was spent working with agencies and companies. I specialise in
 				creating visually stunning websites and web applications that drive business growth. I have a deep passion for
 				<span
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
-					UiUX, web animation, branding, and typography.
+					UiUX, web animation, branding and typography.
 				</span>
 			</p>
 			<p class="mt-8 md:mt-16 xl:mt-24">
-				My background as a freelancer with over 8 years of design experience enhances my front-end development skills,
+				My background as a freelancer with over 8 years of design experience enhances my frontend development skills,
 				as it helps me apply those skills to
 				<span
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"

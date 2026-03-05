@@ -54,34 +54,56 @@
 					Todak Digitech Sdn. Bhd.
 				</p>
 				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
-					Cyberjaya, Selangor
+					CoPlace 11, Cyberjaya, Selangor
 				</p>
 				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite px-5 xl:px-0">
-					Jun 2025 - Present | Full-time | On-Site
+					June 2025 - Present | Full-time | Hybrid
 				</p>
 				<Divider />
 				<div class="block xl:hidden px-4 xl:px-8">
-					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite">Web Developer</p>
-					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Jun 2025 - Present</p>
+					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite">Senior Web Developer</p>
+					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">June 2025 - Present</p>
 					<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
-						<li :class="bulletItemClasses" v-for="item in bulletPointsTodakWebDeveloper" :key="item">
+						<li :class="bulletItemClasses" v-for="item in bulletPointsTodakSeniorWebDeveloper" :key="item">
+							<span :class="bulletItemTextClasses">
+								{{ item }}
+							</span>
+						</li>
+						<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+						<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsTodak" :key="item">
 							<span :class="bulletItemTextClasses">
 								{{ item }}
 							</span>
 						</li>
 					</ul>
+					<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
+						Delivered Projects:
+						<span class="font-normal">
+							Todak Center, Al-Ihya, Todak Academy Student Portal, SMS Portal, Todak Culture i-City, EZ-Qurban
+						</span>
+					</p>
 				</div>
 			</div>
 			<div :class="rightExperienceClasses">
-				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Web Developer</p>
-				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Jun 2025 - Present</p>
+				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Senior Web Developer</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">June 2025 - Present</p>
 				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
-					<li :class="bulletItemClasses" v-for="item in bulletPointsTodakWebDeveloper" :key="item">
+					<li :class="bulletItemClasses" v-for="item in bulletPointsTodakSeniorWebDeveloper" :key="item">
+						<span :class="bulletItemTextClasses">
+							{{ item }}
+						</span>
+					</li>
+					<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+					<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsTodak" :key="item">
 						<span :class="bulletItemTextClasses">
 							{{ item }}
 						</span>
 					</li>
 				</ul>
+				<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
+					Delivered Projects:
+					<span class="font-normal">Todak Center, Al-Ihya, Todak Academy Student Portal, SMS Portal, Todak Culture i-City, EZ-Qurban</span>
+				</p>
 			</div>
 			<div :class="leftExperienceClasses">
 				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite px-5 xl:px-0">
@@ -105,9 +127,15 @@
 						</li>
 					</ul>
 					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite mt-6">Web Designer (HTML/CSS)</p>
-					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Feb 2024 - August 2024</p>
+					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Feb 2024 - Aug 2024</p>
 					<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
 						<li :class="bulletItemClasses" v-for="item in bulletPointsWebDesigner" :key="item">
+							<span :class="bulletItemTextClasses">
+								{{ item }}
+							</span>
+						</li>
+						<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+						<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsInspireNow" :key="item">
 							<span :class="bulletItemTextClasses">
 								{{ item }}
 							</span>
@@ -116,7 +144,7 @@
 					<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
 						Delivered Projects:
 						<span class="font-normal">
-							InspireNow, KardAsia, PNB, ASNB,  Kasih Hospice Foundation, CTS Lawyers, INKA, IICM, SST, CRS
+							InspireNow, KardAsia, PNB, ASNB, Kasih Hospice Foundation, CTS Lawyers, INKA, IICM, SST, CRS
 						</span>
 					</p>
 				</div>
@@ -132,9 +160,15 @@
 					</li>
 				</ul>
 				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite mt-6">Web Designer (HTML/CSS)</p>
-				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Feb 2024 - August 2024</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Feb 2024 - Aug 2024</p>
 				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
 					<li :class="bulletItemClasses" v-for="item in bulletPointsWebDesigner" :key="item">
+						<span :class="bulletItemTextClasses">
+							{{ item }}
+						</span>
+					</li>
+					<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+					<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsInspireNow" :key="item">
 						<span :class="bulletItemTextClasses">
 							{{ item }}
 						</span>
@@ -142,7 +176,7 @@
 				</ul>
 				<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
 					Delivered Projects:
-					<span class="font-normal"> InspireNow, KardAsia, PNB, ASNB,  Kasih Hospice Foundation, CTS Lawyers, INKA, IICM, SST, CRS </span>
+					<span class="font-normal">InspireNow, KardAsia, PNB, ASNB, Kasih Hospice Foundation, CTS Lawyers, INKA, IICM, SST, CRS</span>
 				</p>
 			</div>
 			<div :class="leftExperienceClasses">
@@ -157,7 +191,7 @@
 				</p>
 				<Divider />
 				<div class="block xl:hidden px-4 xl:px-8">
-					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite">Former Web Developer</p>
+					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite">Web Developer</p>
 					<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-3 xl:ml-4">
 						<li :class="bulletItemClasses" v-for="item in bulletPointsWebDeveloper" :key="item">
 							<span :class="bulletItemTextClasses">
@@ -174,15 +208,7 @@
 					<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
 						Delivered Projects:
 						<span class="font-normal">
-							HR Bolt (Tailwind CSS | Laravel | Vue.js | JavaScripts | JQuery | SASS | CSS), KLCC/Alamanda Booking
-							System (Laravel |Tailwind CSS | JavaScripts | JQuery | SASS | CSS), Code413 (Laravel | Tailwind CSS |
-							Swiper.js | Matter.js | CSS animation/transitions | JavaScripts | JQuery | SASS | CSS), 4Thirteen (Webflow
-							| CSS | JavaScripts | GSAP), MTBC (WordPress | PHP | CSS | JavaScripts | JQuery), Yoodo - Wheel Yoo Win
-							(WYW) | Roda Riang Raya (RRR) (Laravel | Tailwind CSS | CSS | JavaScripts | Alpine.js | Embedded to
-							WordPress using iFrame), Yoodo (WordPress | PHP | CSS | Tailwind CSS | WP Bakery | JavaScripts | JQuery),
-							Rohto Projects - Sunplay | Lipcare (Laravel | Tailwind CSS | CSS | SASS | JavaScripts | JQuery | Swiper.js
-							| Twill), Family Frontiers (Laravel | Tailwind CSS | CSS | SASS), CelcomDigi (Webflow | CSS | JavaScripts
-							| GSAP | Three.js | Swiper.js), LINC, DoggyBag
+							HR Bolt, KLCC & Alamanda Booking System, Code413, 4Thirteen, MTBC, Yoodo - Wheel Yoo Win (WYW) | Roda Riang Raya (RRR), Yoodo, Rohto Projects - Sunplay | Lipcare, Family Frontiers, CelcomDigi, LINC, DoggyBag
 						</span>
 					</p>
 				</div>
@@ -205,15 +231,7 @@
 				<p class="mt-6 font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold">
 					Delivered Projects:
 					<span class="font-normal">
-						HR Bolt (Tailwind CSS | Laravel | Vue.js | JavaScripts | JQuery | SASS | CSS), KLCC/Alamanda Booking System
-						(Laravel |Tailwind CSS | JavaScripts | JQuery | SASS | CSS), Code413 (Laravel | Tailwind CSS | Swiper.js |
-						Matter.js | CSS animation/transitions | JavaScripts | JQuery | SASS | CSS), 4Thirteen (Webflow | CSS |
-						JavaScripts | GSAP), MTBC (WordPress | PHP | CSS | JavaScripts | JQuery), Yoodo - Wheel Yoo Win (WYW) | Roda
-						Riang Raya (RRR) (Laravel | Tailwind CSS | CSS | JavaScripts | Alpine.js | Embedded to WordPress using
-						iFrame), Yoodo (WordPress | PHP | CSS | Tailwind CSS | WP Bakery | JavaScripts | JQuery), Rohto Projects -
-						Sunplay | Lipcare (Laravel | Tailwind CSS | CSS | SASS | JavaScripts | JQuery | Swiper.js | Twill), Family
-						Frontiers (Laravel | Tailwind CSS | CSS | SASS), CelcomDigi (Webflow | CSS | JavaScripts | GSAP | Three.js |
-						Swiper.js), LINC, DoggyBag
+						HR Bolt, KLCC & Alamanda Booking System, Code413, 4Thirteen, MTBC, Yoodo - Wheel Yoo Win (WYW) | Roda Riang Raya (RRR), Yoodo, Rohto Projects - Sunplay | Lipcare, Family Frontiers, CelcomDigi, LINC, DoggyBag
 					</span>
 				</p>
 			</div>
@@ -236,6 +254,12 @@
 								{{ item }}
 							</span>
 						</li>
+						<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+						<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsQutu" :key="item">
+							<span :class="bulletItemTextClasses">
+								{{ item }}
+							</span>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -243,6 +267,12 @@
 				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite -mt-3">Front End Developer</p>
 				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-4">
 					<li :class="bulletItemClasses" v-for="item in bulletPointsFrontEndDeveloper" :key="item">
+						<span :class="bulletItemTextClasses">
+							{{ item }}
+						</span>
+					</li>
+					<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+					<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsQutu" :key="item">
 						<span :class="bulletItemTextClasses">
 							{{ item }}
 						</span>
@@ -267,11 +297,23 @@
 								{{ item }}
 							</span>
 						</li>
+						<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+						<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsFreelanceWebDeveloper" :key="item">
+							<span :class="bulletItemTextClasses">
+								{{ item }}
+							</span>
+						</li>
 					</ul>
 					<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite mt-6">Freelance Designer</p>
-					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sept 2015 - June 2021</p>
+					<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sep 2015 - June 2021</p>
 					<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-4">
 						<li :class="bulletItemClasses" v-for="item in bulletPointsFreelanceDesigner" :key="item">
+							<span :class="bulletItemTextClasses">
+								{{ item }}
+							</span>
+						</li>
+						<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+						<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsFreelanceDesigner" :key="item">
 							<span :class="bulletItemTextClasses">
 								{{ item }}
 							</span>
@@ -288,11 +330,23 @@
 							{{ item }}
 						</span>
 					</li>
+					<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+					<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsFreelanceWebDeveloper" :key="item">
+						<span :class="bulletItemTextClasses">
+							{{ item }}
+						</span>
+					</li>
 				</ul>
 				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite mt-6">Freelance Designer</p>
-				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sept 2015 - June 2021</p>
+				<p class="font-satoshi text-sm xl:text-base text-brandPrimaryWhite">Sep 2015 - June 2021</p>
 				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-4">
 					<li :class="bulletItemClasses" v-for="item in bulletPointsFreelanceDesigner" :key="item">
+						<span :class="bulletItemTextClasses">
+							{{ item }}
+						</span>
+					</li>
+					<p class="underline mt-6 text-brandPrimaryWhite">Achievements:</p>
+					<li :class="bulletItemClasses" v-for="item in bulletPointsAchievementsFreelanceDesigner" :key="item">
 						<span :class="bulletItemTextClasses">
 							{{ item }}
 						</span>
@@ -341,13 +395,18 @@
 		bulletItemClasses,
 		bulletItemTextClasses,
 		bulletPointsFullStackDeveloper,
-		bulletPointsTodakWebDeveloper,
+		bulletPointsTodakSeniorWebDeveloper,
+		bulletPointsAchievementsTodak,
 		bulletPointsWebDesigner,
 		bulletPointsWebDeveloper,
+		bulletPointsAchievementsInspireNow,
 		bulletPointsAchievementsWebDeveloper,
 		bulletPointsFrontEndDeveloper,
+		bulletPointsAchievementsQutu,
 		bulletPointsFreelanceWebDeveloper,
+		bulletPointsAchievementsFreelanceWebDeveloper,
 		bulletPointsFreelanceDesigner,
+		bulletPointsAchievementsFreelanceDesigner,
 		bulletPointsIntern,
 	} from "@/scripts/ExperiencesScript.js";
 </script>

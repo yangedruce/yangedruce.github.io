@@ -82,7 +82,38 @@
 				<div class="border border-brandNeutral-500 w-full"></div>
 			</div>
 			<p>
-				<a href="https://www.code413.io" target="_blank"> code413 </a>
+				<a href="https://staging-center.todakdigi.tech/login" target="_blank"> Todak Center (Old) </a>
+				<a
+					href="https://staging-ihya.todakdigi.tech/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					Al-Ihya (Revamp)
+				</a>
+				<a href="https://rejab.ihya.my/admin/auth/login" target="_blank"> Al-Ihya </a>
+				<a
+					href="https://qwezq.todakdigi.tech/admin/auth/login"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					EZ-Qurban
+				</a>
+				<a href="https://portal.todakacademy.com/" target="_blank"> Todak Academy </a>
+				<a
+					href="https://staging-sms.todak.com/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					SMS Portal
+				</a>
+				<a href="https://wf-a.ihya.my/workflow/kwwzH7hkC7JeIVkN" target="_blank"> Al-Ihya & Todak Culture (n8n) </a>
+				<a
+					href="https://www.code413.io"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					code413
+				</a>
 				<a
 					href="https://www.4thirteen.com.my"
 					target="_blank"
