@@ -10,7 +10,7 @@
 					:number="item.number"
 					:text-color="item.textColor"
 					:label="item.label"
-					:show-logo="item.link === '#yangEdruce'"
+					:show-logo="item.link === '#nurulIzyanSyaza'"
 					:active-emoji-image="item.activeEmojiImage" />
 				<Cta />
 			</div>
@@ -24,13 +24,13 @@
 
 	const navigationItems = [
 		{
-			link: "#yangEdruce",
+			link: "#nurulIzyanSyaza",
 			linkClass:
 				"bg-brandPrimaryWhite border border-brandPrimaryWhite text-brandNeutral-800 py-4 px-4 md:px-8 h-28 w-56",
 			number: "",
 			textColor: "text-brandNeutral-800",
 			label: "Nurul Izyan Syaza",
-			activeEmojiImage: "/emoji/yangedruce-emoji.png",
+			activeEmojiImage: "/emoji/nurulizyansyaza-emoji.png",
 		},
 		{
 			link: "#hello",

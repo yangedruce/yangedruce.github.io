@@ -3,7 +3,7 @@
 		:href="link"
 		:class="linkClass"
 		class="relative rounded-2xl transition ease-in-out delay-150 duration-300 w-40 md:w-60 xl:w-56 drop-shadow-lg shadow-brandPrimaryBlack">
-		<template v-if="link === '#yangEdruce'">
+		<template v-if="link === '#nurulIzyanSyaza'">
 			<img :src="logoSrc" alt="logo" class="h-4 w-auto" />
 		</template>
 		<p class="font-satoshi text-xs">{{ number }}</p>

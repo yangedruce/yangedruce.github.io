@@ -114,14 +114,14 @@
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
 					code413
 				</a>
+				<a href="https://www.4thirteen.com.my" target="_blank"> 4Thirteen </a>
 				<a
-					href="https://www.4thirteen.com.my"
+					href="https://sunplay.com.my/"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
-					4Thirteen
+					sunplay
 				</a>
-				<a href="https://sunplay.com.my/" target="_blank"> sunplay </a>
 				<a
 					href="https://mentholatumlipcare.com.my/"
 					target="_blank"
@@ -211,7 +211,7 @@
 			<p>
 				<a href="https://github.com/nurulizyansyaza/yangedruce-archive" target="_blank"> yang edruce </a>
 				<a
-					href="https://github.com/nurulizyansyaza/rekabyte"
+					href="https://www.rekabyte.nurulizyansyaza.com/"
 					target="_blank"
 					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
 					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
