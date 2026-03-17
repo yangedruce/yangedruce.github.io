@@ -74,6 +74,13 @@
 					Nurul Izyan Syaza
 				</a>
 				<a href="https://github.com/nurulizyansyaza/makando" target="_blank"> makando </a>
+				<a
+					href="https://d31r5a2wvtwynh.cloudfront.net/"
+					target="_blank"
+					class="italic text-brandPrimaryWhite dark:text-brandNeutral-800 text-stroke sm:text-stroke-2"
+					:class="isDarkMode ? 'text-stroke-brandPrimaryWhite' : 'text-stroke-brandNeutral-800'">
+					courier service
+				</a>
 			</p>
 			<div
 				class="flex justify-center items-center gap-4 font-satoshi font-bold text-sm md:text-xl xl:text-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite mt-8 mb-4 xl:mt-16 xl:mb-8">
