@@ -5,14 +5,20 @@
 		<div class="relative w-full h-full py-5 xl:py-10">
 			<h1 class="relative w-full h-full overflow-hidden whitespace-nowrap">
 				<div
-					class="absolute -bottom-1 md:-bottom-6 xl:-bottom-3 2xl:-bottom-12 3xl:-bottom-24 animate-marquee text-brandNeutral-800 dark:text-brandPrimaryWhite leading-none">
+					:class="[
+						'absolute -bottom-1 md:-bottom-6 xl:-bottom-3 2xl:-bottom-12 3xl:-bottom-24 text-brandNeutral-800 dark:text-brandPrimaryWhite leading-none transition-opacity duration-300',
+						fontsLoaded ? 'animate-marquee opacity-100' : 'opacity-0'
+					]">
 					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
 					<span class="font-porlane text-6xl md:text-8xl xl:text-9xl 2xl:text-11xl 3xl:text-12xl uppercase">
 						Creative Web Developer & Multi-Disciplinary Designer
 					</span>
 				</div>
 				<div
-					class="absolute -bottom-1 md:-bottom-6 xl:-bottom-3 2xl:-bottom-12 3xl:-bottom-24 animate-marquee2 text-brandNeutral-800 dark:text-brandPrimaryWhite leading-none">
+					:class="[
+						'absolute -bottom-1 md:-bottom-6 xl:-bottom-3 2xl:-bottom-12 3xl:-bottom-24 text-brandNeutral-800 dark:text-brandPrimaryWhite leading-none transition-opacity duration-300',
+						fontsLoaded ? 'animate-marquee2 opacity-100' : 'opacity-0'
+					]">
 					<span>&nbsp;&nbsp;</span>
 					<span class="font-porlane text-6xl md:text-8xl xl:text-9xl 2xl:text-11xl 3xl:text-12xl uppercase">
 						Creative Web Developer & Multi-Disciplinary Designer
@@ -24,5 +30,13 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue'
 
+const fontsLoaded = ref(false)
+
+onMounted(() => {
+	document.fonts.ready.then(() => {
+		fontsLoaded.value = true
+	})
+})
 </script>

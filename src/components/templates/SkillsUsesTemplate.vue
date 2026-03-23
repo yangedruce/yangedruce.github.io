@@ -127,6 +127,16 @@
 			</div>
 			<div class="h-full w-full bg-brandNeutral-700 border border-brandNeutral-700 py-4 xl:p-10 rounded-2xl">
 				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite px-5 xl:px-0">
+					Testing
+				</p>
+				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-7 xl:ml-4 mt-2">
+					<li :class="bulletItemClasses" v-for="item in bulletPointsTesting" :key="item">
+						<span :class="bulletItemTextClasses">{{ item }}</span>
+					</li>
+				</ul>
+			</div>
+			<div class="h-full w-full bg-brandNeutral-700 border border-brandNeutral-700 py-4 xl:p-10 rounded-2xl">
+				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite px-5 xl:px-0">
 					Server Management
 				</p>
 				<ul class="font-satoshi text-sm xl:text-base list-outside list-disc ml-7 xl:ml-4 mt-2">
@@ -135,6 +145,8 @@
 					</li>
 				</ul>
 			</div>
+		</div>
+		<div :class="gridBoxClasses">
 			<div class="h-full w-full bg-brandNeutral-700 border border-brandNeutral-700 py-4 xl:p-10 rounded-2xl">
 				<p class="font-satoshi font-bold text-base xl:text-xl text-brandPrimaryWhite px-5 xl:px-0">
 					Development Tools
@@ -315,6 +327,7 @@
 		bulletPointsCloudSecurity,
 		bulletPointsGeospatial,
 		bulletPointsDatabases,
+		bulletPointsTesting,
 		bulletPointsAIAutomation,
 		bulletPointsServerManagement,
 		bulletPointsDevelopmentTools,

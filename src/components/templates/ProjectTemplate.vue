@@ -83,6 +83,9 @@
 				</a>
 				<a href="https://d1w6dngwkrqpvq.cloudfront.net/" target="_blank"> personal task tracker </a>
 			</p>
+			<p class="font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold italic mt-8 xl:mt-12">
+				Disclaimer: <span class="font-normal">Some projects may no longer be available online due to lack of maintenance or discontinuation. If any personal projects are inaccessible, please let me know—I'd be happy to share links to my personal GitHub repositories. However, projects completed for work or clients cannot be shared due to confidentiality agreements.</span>
+			</p>
 			<div
 				class="flex justify-center items-center gap-4 font-satoshi font-bold text-sm md:text-xl xl:text-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite mt-8 mb-4 xl:mt-16 xl:mb-8">
 				<div class="border border-brandNeutral-500 w-full"></div>
@@ -210,6 +213,9 @@
 					CRS
 				</a>
 			</p>
+			<p class="font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold italic mt-8 xl:mt-12">
+				Disclaimer: <span class="font-normal">Some projects may no longer be available online due to lack of maintenance or discontinuation. If any personal projects are inaccessible, please let me know—I'd be happy to share links to my personal GitHub repositories. However, projects completed for work or clients cannot be shared due to confidentiality agreements.</span>
+			</p>
 			<div
 				class="flex justify-center items-center gap-4 font-satoshi font-bold text-sm md:text-xl xl:text-2xl text-brandNeutral-800 dark:text-brandPrimaryWhite mt-8 mb-4 xl:mt-16 xl:mb-8">
 				<div class="border border-brandNeutral-500 w-full"></div>
@@ -234,6 +240,9 @@
 					tonggak mega
 				</a>
 				<a href="https://www.parallax.nurulizyansyaza.com/" target="_blank"> parallax </a>
+			</p>
+			<p class="font-satoshi text-sm xl:text-base text-brandNeutral-500 font-bold italic mt-8 xl:mt-12">
+				Disclaimer: <span class="font-normal">Some projects may no longer be available online due to lack of maintenance or discontinuation. If any personal projects are inaccessible, please let me know—I'd be happy to share links to my personal GitHub repositories. However, projects completed for work or clients cannot be shared due to confidentiality agreements.</span>
 			</p>
 		</div>
 	</section>
