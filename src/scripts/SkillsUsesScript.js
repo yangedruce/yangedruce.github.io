@@ -5,9 +5,9 @@ const bulletItemTextClasses = "text-brandPrimaryWhite";
 
 // Programming & Frameworks
 const bulletPointsProgrammingFrameworks = [
-	"PHP, Laravel, Laravel Livewire, Laravel Octane (FrankenPHP)",
+	"PHP, Laravel, Laravel Livewire, Laravel Octane (FrankenPHP), Java, Spring Boot, GraphQL",
 	"TypeScript, JavaScript, Node.js, NestJS, Next.js, Express.js",
-	"Vue.js, React.js, Svelte, Alpine.js",
+	"Angular, Vue.js, React.js, Svelte, Alpine.js",
 	"HTML5, CSS3, SCSS, Tailwind CSS, Bootstrap, jQuery",
 	"AstroJS, Ink (React CLI), Commander, Flutter",
 	"Python, C, C++",
@@ -15,7 +15,7 @@ const bulletPointsProgrammingFrameworks = [
 
 // Backend & API Development
 const bulletPointsBackendAPI = [
-	"RESTful API Development, Laravel API, NestJS API, Express.js API, Node.js, Strapi",
+	"RESTful API Development, GraphQL, Laravel API, NestJS API, Express.js API, Node.js, Strapi",
 	"TypeORM, Swagger/OpenAPI, class-validator/class-transformer, Zod",
 	"Helmet, Rate Limiting, Redis Caching (cache-manager, ioredis)",
 	"Bruno API Client, Authentication & Security",
@@ -39,6 +39,7 @@ const bulletPointsDevOps = [
 	"DigitalOcean, IPServerOne Nova Cloud, VPS Management",
 	"Shell Scripting (Bash)",
 	"Infrastructure Monitoring & Performance Troubleshooting",
+	"PM2",
 ];
 
 // Cloud, CDN & Security
@@ -59,14 +60,14 @@ const bulletPointsGeospatial = [
 
 // Databases
 const bulletPointsDatabases = [
-	"MySQL, MariaDB, Redis, TypeORM",
+	"MySQL, MariaDB, PostgreSQL, SQLite, MSSQL, Redis, TypeORM",
 	"Database Design, Query Optimization, Data Migration",
 	"phpMyAdmin, TablePlus, DBngin",
 ];
 
 // Testing
 const bulletPointsTesting = [
-	"Jest, Vitest, Supertest",
+	"Jest, Vitest, Playwright, Supertest",
 	"React Testing Library (@testing-library/react)",
 	"TDD/BDD, Unit Testing, Integration Testing",
 	"Automated tests across repos",
@@ -113,6 +114,7 @@ const bulletPointsCMSPlatforms = [
 	"WordPress, Drupal",
 	"Webflow, Elementor/Elementor Pro",
 	"Strapi",
+	"Shopify, Wix, Squarespace",
 ];
 
 // UI / Frontend
@@ -184,12 +186,12 @@ const bulletPointsOthersInterests = [
 
 const bulletPointsWorkstation = [
 	'14" MacBook Pro <br class="hidden md:block lg:hidden" /> M4, 16GB<br class="block md:hidden" />RAM, 512GB Storage (Silver)',
-	'29.5" Acer Nitro XZ306C 200Hz, 2560 x 1080 Curved Monitor (White) With Custom White PC Built (Linux)',
 	'Cooler Master CK720 65% Gaming Keyboard (Space Gray) With Custom Pikachu Keycaps and Switches',
 	"Venom II WGC2 Space Edition Wireless Mouse (White)",
 	'MSI MAG401QR 40" UWQHD Gaming Monitor With Custom Black PC Built (Windows)',
 	'DarkFlash 98% GD100 Mechanical Keyboard With Custom Pikachu Keycaps',
 	"Logitech MX Master 3S Mouse",
+	"Apple Magic Trackpad (Black)",
 ];
 
 const bulletPointsWorkTools = [
